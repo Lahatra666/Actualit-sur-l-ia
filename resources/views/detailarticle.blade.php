@@ -9,7 +9,7 @@
         @foreach($articles as $article)
         <div class="row g-0">
           <div class="col-md-4">
-            <img src="{{ Storage::url($article->image) }}" class="img-fluid rounded-start" alt="...">
+            <img src="{{ Storage::url($article->image) }}" class="img-fluid rounded-start" alt="..." width="500" height="350">
           </div>
           <div class="col-md-8">
             <div class="card-body">
