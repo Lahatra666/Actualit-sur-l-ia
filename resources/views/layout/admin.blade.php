@@ -3,8 +3,6 @@
 
 <head>
   <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
   <title>IA informations</title>
   <meta content="Decouvrez comment l'intelligence artificielle et sa révolution " name="description">
   <meta content="intelligence artificielle,IA,machine learning,deep learning,automatisation,technologie" name="keywords">
