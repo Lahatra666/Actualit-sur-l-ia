@@ -1,4 +1,5 @@
-namespace Illuminate\Http\Middleware;
+<?php
+namespace App\Http\Middleware;
 
 class CacheResponse extends EnsureHttpHeadersAreValid
 {
@@ -9,3 +10,5 @@ class CacheResponse extends EnsureHttpHeadersAreValid
      */
     const CACHE_CONTROL_MAX_AGE = 3600;
 }
+
+?>
