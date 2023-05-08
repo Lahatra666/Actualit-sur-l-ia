@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Route;
 */
 //login
 Route::get('/',[LoginController::class, 'index'])->name('index');
-Route::post('/ia-information/authenticate',[LoginController::class, 'authenticate'])->name('authenticate');
+Route::post('/authenticate',[LoginController::class, 'authenticate'])->name('authenticate');
 Route::get('logout',[LoginController::class, 'logout'])->name('logout');
 Route::get('/ia-information/ajouterarticle.html',[ArticleController::class, 'formajoutarticle'])->name('formajoutarticle');
 Route::get('/ia-information/login.html',[LoginController::class, 'login'])->name('login');
