@@ -31,7 +31,6 @@
 
                   <form class="row g-3 needs-validation" method="POST" action="{{ route('authenticate') }}">
                     @csrf
-                    @method('PUT')
                     <div class="col-12">
                       <label for="yourUsername" class="form-label">Email</label>
                       <div class="input-group has-validation">
