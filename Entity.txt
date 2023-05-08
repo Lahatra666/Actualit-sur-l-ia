@@ -1,8 +1,0 @@
-marque (idmarque,nommarque)
-type (idtype,nomtype)
-véhicule (,idvehicule,numero, idmarque, modele, idtype)
-Carburant(idcarburant,montant,quantite)
-Départ (iddepart,idvehicule,idcarburant,date, lieu, kilométrage)
-Départ (idarrive,idvehicule,idcarburant,date, lieu, kilométrage)
-Trajet(idvehicule,iddepart,idarrive,motif)
-
