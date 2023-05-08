@@ -149,7 +149,7 @@
         <li class="nav-item">
           <a class="nav-link " href="{{ route('login') }}">
             <i class="bi bi-check-circle-fill"></i>
-            <span>Login</span>
+            <span>Backoffice</span>
           </a>
       </li>  
       <br>      
