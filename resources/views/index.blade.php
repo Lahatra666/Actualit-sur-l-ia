@@ -21,7 +21,7 @@
                     <div class="accordion-body">
                       <div class="row g-0">
                         <div class="col-md-4">
-                            <a href="{{ route('detail',['idarticle'=>$article->idarticle]) }}"><img src="{{ Storage::url($article->image) }}" class="img-fluid rounded-start" alt="{{ $article->image }}"></a>
+                            <a href="{{ route('detail',['idarticle'=>$article->idarticle]) }}"><img src="{{ Storage::url($article->image) }}" class="img-fluid rounded-start" alt="{{ $article->image }}" width="500" height="350"></a>
                         </div>
                         <div class="col-md-8">
                           <div class="card-body">
