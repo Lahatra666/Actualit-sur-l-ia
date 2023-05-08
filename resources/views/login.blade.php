@@ -31,18 +31,19 @@
 
                   <form class="row g-3 needs-validation" method="POST" action="{{ route('authenticate') }}">
                     @csrf
+                    @method('POST')
                     <div class="col-12">
                       <label for="yourUsername" class="form-label">Email</label>
                       <div class="input-group has-validation">
                         <span class="input-group-text" id="inputGroupPrepend">@</span>
-                        <input type="text" name="email" class="form-control" id="yourUsername" required>
+                        <input type="text" name="email" class="form-control" id="yourUsername" value="admin@gmail.com" required>
                         <div class="invalid-feedback">Please enter your username.</div>
                       </div>
                     </div>
 
                     <div class="col-12">
                       <label for="yourPassword" class="form-label">Password</label>
-                      <input type="password" name="password" class="form-control" id="yourPassword" required>
+                      <input type="password" name="password" class="form-control" id="yourPassword" value="admin" required>
                       <div class="invalid-feedback">Please enter your password!</div>
                     </div>
 

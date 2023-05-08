@@ -42,7 +42,7 @@
     </div><!-- End Logo -->
 
     <div class="search-bar">
-      <form class="search-form d-flex align-items-center" method="GET" action="#">
+      <form class="search-form d-flex align-items-center" method="POST" action="#">
         <input type="text" name="mot" placeholder="Search" title="Enter search keyword">
         <button type="submit" title="Search"><i class="bi bi-search"></i></button>
       </form>
@@ -149,7 +149,7 @@
         <li class="nav-item">
           <a class="nav-link " href="{{ route('login') }}">
             <i class="bi bi-check-circle-fill"></i>
-            <span>Login</span>
+            <span>Backoffice</span>
           </a>
       </li>  
       <br>      
